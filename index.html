@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>All in One Calculator</title>
+    <link rel="stylesheet" href="./index.css"/>
+</head>
+
+<body>
+    <nav>
+        <h1 class="heading">Mathematical functions on two numbers</h1>
+        <p>
+            Developed by
+            <a href="https://www.instagram.com/himanshu.baid.273/" id="foot">Himanshu Baid</a>
+        </p>
+    </nav>
+    <form class="sumform" onsubmit="add()">
+        <input type="number" id="a" placeholder="first number" />
+        <input type="number" id="b" placeholder="second number" />
+        <button type="submit">Submit</button>
+    </form>
+    <p style="display: none" id="ans1">Sum        : <input id="answer1" /></p>
+    <p style="display: none" id ="ans2">Difference: <input id="answer2"/></p>
+    <p style="display: none" id="ans3">Product    : <input id="answer3" /></p>
+    <p style="display: none" id="ans4">Division   : <input id="answer4" /></p>
+    <script src="./script.js"><script/>
+</body>
+</html>

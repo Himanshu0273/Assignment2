@@ -1,0 +1,26 @@
+* {
+    flex: content;
+    align-items: center;
+}
+
+.sumform {
+    background-color: rgb(23, 62, 107);
+    margin: 150px;
+    padding: 50px;
+}
+
+navbar {
+    position: absolute;
+    padding: 10px;
+    display: table;
+    text-align: center;
+    margin-right: 150;
+    margin-left: 150;
+    top: 250;
+}
+
+@media only screen and (max-width:400px) {
+    * {
+        text-align: center;
+    }
+}
